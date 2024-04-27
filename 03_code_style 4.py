@@ -95,11 +95,11 @@ count_of_my_pets = 34
 if count_of_my_pets > 10:
     print('I need more space for my pets!')
 
-my_favorite_pets_and_bird = ['cat', 'wolf', 'ostrich']
-if 'lion' in my_favorite_pets_and_bird:
+list_ = ['cat', 'wolf', 'ostrich']
+if 'lion' in list_:
     print('Wow!')
 
-MyFavoritePetsAndBirds = ['cat', 'wolf', 'ostrich']
+list_ = ['cat', 'wolf', 'ostrich']
 # но такой стиль используется для названий классов
 
 
@@ -112,11 +112,11 @@ MyFavoritePetsAndBirds = ['cat', 'wolf', 'ostrich']
 #   x y z - для координат
 
 # никогда не используйте в названиях переменных одиночные l, I, O  !
-l_ = 34
-I_ = 43
-if l_ > I_:
+a = 34
+b = 43
+if a > b:
     print()
-l_ = 9
+a = 9
 if 1 > 0:
     print()
 
@@ -136,8 +136,8 @@ if 1 > 0:
 
 # автоматическое переименование в PyCharm и подсказки - вам не нужно набирать длинные названия переменных
 
-ss = ['cat', 'wolf', 'ostrich']
-if 'lion' in ss:
+list_ = ['cat', 'wolf', 'ostrich']
+if 'lion' in list_:
     print('Wow!')
 
 # В каждой уважающей себя компании есть style guide (стайл-гайд) - руководство по стилю написания кода.
